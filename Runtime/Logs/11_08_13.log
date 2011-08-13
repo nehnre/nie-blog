@@ -180,3 +180,49 @@
 [ 2011-08-13T22:59:46+08:00 ] SQL: SELECT * FROM `think_demo` [ RunTime:0.000538s ]
 [ 2011-08-13T23:02:31+08:00 ] SQL: SHOW COLUMNS FROM `think_demo` [ RunTime:0.003220s ]
 [ 2011-08-13T23:02:31+08:00 ] SQL: SELECT * FROM `think_demo` [ RunTime:0.000562s ]
+[ 2011-08-13T23:13:49+08:00 ] SQL: SHOW COLUMNS FROM `think_demo` [ RunTime:0.003128s ]
+[ 2011-08-13T23:13:49+08:00 ] SQL: SELECT * FROM `think_demo` [ RunTime:0.000665s ]
+[ 2011-08-13T23:13:51+08:00 ] SQL: SHOW COLUMNS FROM `think_demo` [ RunTime:0.003097s ]
+[ 2011-08-13T23:13:51+08:00 ] SQL: SELECT * FROM `think_demo` [ RunTime:0.000696s ]
+[ 2011-08-13T23:13:51+08:00 ] SQL: SHOW COLUMNS FROM `think_demo` [ RunTime:0.003444s ]
+[ 2011-08-13T23:13:51+08:00 ] SQL: SELECT * FROM `think_demo` [ RunTime:0.000564s ]
+[ 2011-08-13T23:13:52+08:00 ] SQL: SHOW COLUMNS FROM `think_demo` [ RunTime:0.004725s ]
+[ 2011-08-13T23:13:52+08:00 ] SQL: SELECT * FROM `think_demo` [ RunTime:0.000733s ]
+[ 2011-08-13T23:13:52+08:00 ] SQL: SHOW COLUMNS FROM `think_demo` [ RunTime:0.007313s ]
+[ 2011-08-13T23:13:52+08:00 ] SQL: SELECT * FROM `think_demo` [ RunTime:0.000615s ]
+[ 2011-08-13T23:13:52+08:00 ] SQL: SHOW COLUMNS FROM `think_demo` [ RunTime:0.003134s ]
+[ 2011-08-13T23:13:52+08:00 ] SQL: SELECT * FROM `think_demo` [ RunTime:0.000701s ]
+[ 2011-08-13T23:13:52+08:00 ] SQL: SHOW COLUMNS FROM `think_demo` [ RunTime:0.003192s ]
+[ 2011-08-13T23:13:52+08:00 ] SQL: SELECT * FROM `think_demo` [ RunTime:0.000543s ]
+[ 2011-08-13T23:29:57+08:00 ] SQL: SHOW COLUMNS FROM `think_demo` [ RunTime:0.003395s ]
+[ 2011-08-13T23:29:57+08:00 ] SQL: SELECT * FROM `think_demo` [ RunTime:0.000733s ]
+[ 2011-08-13T23:30:30+08:00 ] SQL: SHOW COLUMNS FROM `think_demo` [ RunTime:0.003320s ]
+[ 2011-08-13T23:30:30+08:00 ] SQL: SELECT * FROM `think_demo` [ RunTime:0.000709s ]
+[ 2011-08-13T23:31:30+08:00 ] SQL: SHOW COLUMNS FROM `think_demo` [ RunTime:0.003106s ]
+[ 2011-08-13T23:31:30+08:00 ] SQL: SELECT * FROM `think_demo` [ RunTime:0.000701s ]
+[ 2011-08-13T23:31:48+08:00 ] SQL: SHOW COLUMNS FROM `think_demo` [ RunTime:0.003252s ]
+[ 2011-08-13T23:31:48+08:00 ] SQL: SELECT * FROM `think_demo` [ RunTime:0.000556s ]
+[ 2011-08-13T23:31:48+08:00 ] ERR: (ThinkException) 非法操作js
+[ 2011-08-13T23:31:48+08:00 ] ERR: (ThinkException) 非法操作images
+[ 2011-08-13T23:31:48+08:00 ] ERR: (ThinkException) 非法操作images
+[ 2011-08-13T23:31:48+08:00 ] ERR: (ThinkException) 非法操作images
+[ 2011-08-13T23:31:48+08:00 ] ERR: (ThinkException) 非法操作images
+[ 2011-08-13T23:31:48+08:00 ] ERR: (ThinkException) 非法操作images
+[ 2011-08-13T23:31:48+08:00 ] ERR: (ThinkException) 非法操作images
+[ 2011-08-13T23:31:48+08:00 ] ERR: (ThinkException) 非法操作images
+[ 2011-08-13T23:31:48+08:00 ] ERR: (ThinkException) 非法操作images
+[ 2011-08-13T23:31:48+08:00 ] ERR: (ThinkException) 非法操作images
+[ 2011-08-13T23:31:48+08:00 ] ERR: (ThinkException) 非法操作images
+[ 2011-08-13T23:31:48+08:00 ] ERR: (ThinkException) 非法操作images
+[ 2011-08-13T23:31:48+08:00 ] ERR: (ThinkException) 非法操作images
+[ 2011-08-13T23:31:48+08:00 ] ERR: (ThinkException) 非法操作images
+[ 2011-08-13T23:31:48+08:00 ] ERR: (ThinkException) 非法操作images
+[ 2011-08-13T23:31:48+08:00 ] ERR: (ThinkException) 非法操作images
+[ 2011-08-13T23:31:48+08:00 ] ERR: (ThinkException) 非法操作images
+[ 2011-08-13T23:31:48+08:00 ] ERR: (ThinkException) 非法操作images
+[ 2011-08-13T23:31:48+08:00 ] ERR: (ThinkException) 非法操作images
+[ 2011-08-13T23:31:49+08:00 ] ERR: (ThinkException) 非法操作favicon.ico
+[ 2011-08-13T23:31:54+08:00 ] SQL: SHOW COLUMNS FROM `think_demo` [ RunTime:0.003261s ]
+[ 2011-08-13T23:31:54+08:00 ] SQL: SELECT * FROM `think_demo` [ RunTime:0.000684s ]
+[ 2011-08-13T23:32:53+08:00 ] SQL: SHOW COLUMNS FROM `think_demo` [ RunTime:0.003185s ]
+[ 2011-08-13T23:32:53+08:00 ] SQL: SELECT * FROM `think_demo` [ RunTime:0.000559s ]

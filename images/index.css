@@ -1,0 +1,92 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-size: 12px;
+	line-height: 22px;
+}
+.sideTitle {
+	font-size: 14px;
+	font-weight: bold;
+	color: #E25209;
+}
+.basicInfo {
+	color: #999;
+}
+.whiteText {
+	color: #FFF;
+}
+.hotText {
+	color: #FFF;
+}
+.blackText {
+	color: #000;
+}
+.title {
+	font-size: 18px;
+	font-weight: bold;
+	color: #E25209;
+}
+
+a.whiteText{
+
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+.content {
+}
+.contentmodel {
+	display:none;
+}
+.fenlei {
+}
+.about {
+}
+.recentComments {
+}
+.blogroll{
+}
+.readtop10{
+}
+.pageFoot{
+}
+.pageFoot a:hover, .pageFoot a:active {
+	background: #E25209;
+	color: white;
+	text-decoration: none;
+}
+.pageFoot a, .pageFoot span {
+	color: #E25209;
+	float: left;
+	height: 20px;
+	padding: 3px 10px;
+	border: 1px solid #CCC;
+	margin-left: 2px;
+	font-family: arial;
+	line-height: 20px;
+	font-size: 14px;
+	overflow: hidden;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-top-left-radius: 5px 5px;
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+}
+.pageFoot .prev, .pageFoot .next, .pageFoot .prev-disabled, .pageFoot .next-disabled {
+	position: relative;
+	padding-top: 5px;
+	height: 18px;
+	line-height: 18px;
+	color: #CCC;
+	cursor: default;
+}
+.pageFoot .text, .pageFoot .current {
+	border: none;
+	padding: 4px 11px;
+}
