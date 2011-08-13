@@ -32,5 +32,11 @@ class IndexAction extends Action
 		$this->assign('list',$list); // 模板变量赋值
 		$this->display(); // 输出模板
 	}
+	
+	public function ajaxTest() {
+		$Demo = new Model('Demo'); // 实例化模型类
+		$list = $Demo->select(); // 查询数据
+		$this->ajaxReturn($list,"新增错误！",1);
+	}
 }
 ?>
