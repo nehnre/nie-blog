@@ -55,3 +55,5 @@
 [ 2011-08-14T20:49:35+08:00 ] ERR: (ThinkException) 非法操作images
 [ 2011-08-14T20:49:35+08:00 ] ERR: (ThinkException) 非法操作favicon.ico
 [ 2011-08-14T20:49:36+08:00 ] ERR: (ThinkException) 非法操作index.html
+[ 2011-08-14T20:52:19+08:00 ] SQL: SHOW COLUMNS FROM `think_demo` [ RunTime:0.004246s ]
+[ 2011-08-14T20:52:19+08:00 ] SQL: SELECT * FROM `think_demo` [ RunTime:0.000614s ]
