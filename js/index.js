@@ -1,14 +1,12 @@
-// JavaScript Document中文
-var console = {};
-console.log = function(){};
+
 $(function(){
 	lazyload({
 		defObj:$(".content")
 	});
 	console.log($(".fenlei"));
 	$(".fenlei").mouseover(exchangeImage).mouseout(exchangeImage);
-	load();
-	afterLoading();
+	//load();
+	//afterLoading();
 })
 function lazyload(option){
     var settings={
@@ -230,9 +228,9 @@ function pageTurn(start,limit){
 }
 function exchangeImage(){
 	console.log($(this).attr("background"));
-	if($(this).attr("background")=="images/index_06.gif"){
-		$(this).attr("background","images/index_06_2.gif");
+	if($(this).attr("background")=="/images/index_06.gif"){
+		$(this).attr("background","/images/index_06_2.gif");
 	} else {
-		$(this).attr("background","images/index_06.gif");
+		$(this).attr("background","/images/index_06.gif");
 	}
 }

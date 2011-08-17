@@ -4,25 +4,27 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="Shortcut icon" href="favicon.ico" />
 	<link rel="Bookmark" href="favicon.ico"> 
-	<link href="images/index.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/images/index.css" rel="stylesheet" type="text/css" media="all" />
+	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/themes/base/jquery-ui.css" type="text/css" media="all" /> 
 	<title>Nie's Home</title>
 	<script language="JavaScript" src="http://www.google.com/jsapi"></script>
 	<script language="JavaScript">
 		google.load("jquery","1");
+		google.load("jqueryui","1");
 	</script>
-	<script language="JavaScript" src="js/core.js"></script>
-	<script language="JavaScript" src="js/index.js"></script>
+	<script language="JavaScript" src="/js/core.js"></script>
+	<script language="JavaScript" src="/js/index.js"></script>
 </head>
 <body >
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td height="92" align="center" background="images/index_01.gif"><table width="987" border="0" cellspacing="0" cellpadding="0">
+    <td height="92" align="center" background="/images/index_01.gif"><table width="987" border="0" cellspacing="0" cellpadding="0">
       <tr>
         <td width="27">&nbsp;</td>
-        <td width="134"><a href=""><img src="images/index_04.gif" alt="Nie's Home" border="0" longdesc="http://niehonglei.appspot.com" /></a></td>
-        <td width="58" valign="middle">&nbsp;<img src="images/index_06_2.gif" style="display:none" /></td>
+        <td width="134"><a href=""><img src="/images/index_04.gif" alt="Nie's Home" border="0" longdesc="http://niehonglei.appspot.com" /></a></td>
+        <td width="58" valign="middle">&nbsp;<img src="/images/index_06_2.gif" style="display:none" /></td>
         <!--分类模板开始-->
-        <td width="79" align="center" background="images/index_06.gif" class="fenlei"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <td width="79" align="center" background="/images/index_06.gif" class="fenlei"><table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td width="13%" height="41" rowspan="3">&nbsp;</td>
             <td width="76%" height="7"></td>
@@ -38,7 +40,7 @@
         <!--分类模板结束-->
         <td width="30">&nbsp;</td>
        <!--分类模板开始-->
-        <td width="79" align="center" background="images/index_06.gif" class="fenlei"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <td width="79" align="center" background="/images/index_06.gif" class="fenlei"><table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td width="13%" height="41" rowspan="3">&nbsp;</td>
             <td width="76%" height="7"></td>
@@ -54,7 +56,7 @@
         <!--分类模板结束-->
         <td width="30">&nbsp;</td>
        <!--分类模板开始-->
-        <td width="79" align="center" background="images/index_06.gif" class="fenlei"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <td width="79" align="center" background="/images/index_06.gif" class="fenlei"><table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td width="13%" height="41" rowspan="3">&nbsp;</td>
             <td width="76%" height="7"></td>
@@ -70,7 +72,7 @@
         <!--分类模板结束-->
         <td width="30">&nbsp;</td>
        <!--分类模板开始-->
-        <td width="79" align="center" background="images/index_06.gif" class="fenlei"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <td width="79" align="center" background="/images/index_06.gif" class="fenlei"><table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td width="13%" height="41" rowspan="3">&nbsp;</td>
             <td width="76%" height="7"></td>
@@ -86,7 +88,7 @@
         <!--分类模板结束-->
         <td width="30">&nbsp;</td>
        <!--分类模板开始-->
-        <td width="79" align="center" background="images/index_06.gif" class="fenlei"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <td width="79" align="center" background="/images/index_06.gif" class="fenlei"><table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td width="13%" height="41" rowspan="3">&nbsp;</td>
             <td width="76%" height="7"></td>
@@ -109,7 +111,7 @@
       <tr>
         <td width="722" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr>
-            <td height="67" background="images/index_11.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <td height="67" background="/images/index_11.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td height="33" colspan="3">&nbsp;</td>
               </tr>
@@ -123,10 +125,10 @@
                   
           <!--文章模板开始-->
           <tr class="contentmodel">
-            <td height="13" background="images/index_14.gif"></td>
+            <td height="13" background="/images/index_14.gif"></td>
           </tr>
           <tr class="contentmodel">
-            <td  background="images/index_16.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <td  background="/images/index_16.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td colspan="2">&nbsp;</td>
                 <td width="95%" align="left"><a href="#" class="title"></a></td>
@@ -139,7 +141,7 @@
               </tr>              
               <tr>
                 <td colspan="2"></td>
-                <td background="images/line.gif" height="1"></td>
+                <td background="/images/line.gif" height="1"></td>
                 <td></td>
                 </tr>
               <tr>
@@ -165,16 +167,16 @@
             </table></td>
           </tr>
           <tr class="contentmodel">
-            <td height="11"  background="images/index_20.gif"></td>
+            <td height="11"  background="/images/index_20.gif"></td>
           </tr>
 		  <!--文章模板结束-->
                   
            <!--分页模板开始-->
           <tr>
-            <td height="13" background="images/index_14.gif"></td>
+            <td height="13" background="/images/index_14.gif"></td>
           </tr>
           <tr>
-            <td  background="images/index_16.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <td  background="/images/index_16.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td width="2%">&nbsp;</td>
                 <td width="97%" align="left" class="pageFoot"></td>
@@ -183,7 +185,7 @@
               </table></td>
           </tr>
           <tr>
-            <td height="11"  background="images/index_20.gif"></td>
+            <td height="11"  background="/images/index_20.gif"></td>
           </tr>
 		  <!--分页模板结束-->
                     
@@ -194,13 +196,13 @@
           </tr>
           <!--左边模板开始-->  
           <tr>
-            <td height="12" background="images/index_18.gif"></td>
+            <td height="12" background="/images/index_18.gif"></td>
           </tr>
           <tr>
-            <td  background="images/index_22.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <td  background="/images/index_22.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td>&nbsp;</td>
-                <td align="left" class="sideTitle"><a href="rss"><img src="images/sub_rss.gif" alt="订阅" width="16" height="16" border="0" align="absmiddle" /></a>订阅</td>
+                <td align="left" class="sideTitle"><a href="rss"><img src="/images/sub_rss.gif" alt="订阅" width="16" height="16" border="0" align="absmiddle" /></a>订阅</td>
                 <td>&nbsp;</td>
               </tr>
               <tr>
@@ -210,29 +212,29 @@
               </tr> 
               <tr>
                 <td></td>
-                <td background="images/line.gif" height="1"></td>
+                <td background="/images/line.gif" height="1"></td>
                 <td></td>
                </tr> 
                                            
               <tr>
                 <td width="6%">&nbsp;</td>
-                <td width="91%" align="left">跟随我的twitter<a href="http://twitter.com/nehnre"><img src="images/sub_twitter.gif" alt="twitter" width="16" height="16" border="0" align="absmiddle" /></a><br />跟随我的新浪微博
-                  <a href="http://t.sina.com.cn/nehnre"><img src="images/sina_t.gif" alt="新浪微博" width="16" height="16" border="0" align="absmiddle" /></a><br />跟随我的嘀咕
-                  <a href="http://digu.com/nehnre"><img src="images/digu_t.gif" alt="嘀咕" width="16" height="16" border="0" align="absmiddle" /></a></td>
+                <td width="91%" align="left">跟随我的twitter<a href="http://twitter.com/nehnre"><img src="/images/sub_twitter.gif" alt="twitter" width="16" height="16" border="0" align="absmiddle" /></a><br />跟随我的新浪微博
+                  <a href="http://t.sina.com.cn/nehnre"><img src="/images/sina_t.gif" alt="新浪微博" width="16" height="16" border="0" align="absmiddle" /></a><br />跟随我的嘀咕
+                  <a href="http://digu.com/nehnre"><img src="/images/digu_t.gif" alt="嘀咕" width="16" height="16" border="0" align="absmiddle" /></a></td>
                 <td width="3%">&nbsp;</td>
               </tr>
             </table></td>
           </tr>
           <tr>
-            <td height="12"  background="images/index_24.gif"></td>
+            <td height="12"  background="/images/index_24.gif"></td>
           </tr>
           <!--左边模板结束-->  
           <!--左边模板开始-->  
           <tr>
-            <td height="12" background="images/index_18.gif"></td>
+            <td height="12" background="/images/index_18.gif"></td>
           </tr>
           <tr>
-            <td  background="images/index_22.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <td  background="/images/index_22.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td width="6%">&nbsp;</td>
                 <td align="left" width="91%">
@@ -251,15 +253,15 @@
             </table></td>
           </tr>
           <tr>
-            <td height="12"  background="images/index_24.gif"></td>
+            <td height="12"  background="/images/index_24.gif"></td>
           </tr>
           <!--左边模板结束-->  
           <!--左边模板开始-->  
           <tr>
-            <td height="12" background="images/index_18.gif"></td>
+            <td height="12" background="/images/index_18.gif"></td>
           </tr>
           <tr>
-            <td  background="images/index_22.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <td  background="/images/index_22.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td>&nbsp;</td>
                 <td align="left" class="sideTitle">★关于本站</td>
@@ -272,7 +274,7 @@
               </tr> 
               <tr>
                 <td></td>
-                <td background="images/line.gif" height="1"></td>
+                <td background="/images/line.gif" height="1"></td>
                 <td></td>
                </tr> 
                                            
@@ -284,15 +286,15 @@
             </table></td>
           </tr>
           <tr>
-            <td height="12"  background="images/index_24.gif"></td>
+            <td height="12"  background="/images/index_24.gif"></td>
           </tr>
           <!--左边模板结束-->  
           <!--左边模板开始-->  
           <tr>
-            <td height="12" background="images/index_18.gif"></td>
+            <td height="12" background="/images/index_18.gif"></td>
           </tr>
           <tr>
-            <td  background="images/index_22.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <td  background="/images/index_22.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td>&nbsp;</td>
                 <td align="left" class="sideTitle">★最新评论</td>
@@ -305,7 +307,7 @@
               </tr> 
               <tr>
                 <td></td>
-                <td background="images/line.gif" height="1"></td>
+                <td background="/images/line.gif" height="1"></td>
                 <td></td>
                </tr> 
                                             
@@ -317,15 +319,15 @@
             </table></td>
           </tr>
           <tr>
-            <td height="12"  background="images/index_24.gif"></td>
+            <td height="12"  background="/images/index_24.gif"></td>
           </tr>
           <!--左边模板结束-->                       
           <!--左边模板开始-->  
           <tr>
-            <td height="12" background="images/index_18.gif"></td>
+            <td height="12" background="/images/index_18.gif"></td>
           </tr>
           <tr>
-            <td  background="images/index_22.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <td  background="/images/index_22.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td>&nbsp;</td>
                 <td align="left" class="sideTitle">★友情链接</td>
@@ -338,7 +340,7 @@
               </tr> 
               <tr>
                 <td></td>
-                <td background="images/line.gif" height="1"></td>
+                <td background="/images/line.gif" height="1"></td>
                 <td></td>
                </tr> 
                                            
@@ -350,15 +352,15 @@
             </table></td>
           </tr>
           <tr>
-            <td height="12"  background="images/index_24.gif"></td>
+            <td height="12"  background="/images/index_24.gif"></td>
           </tr>
           <!--左边模板结束-->  
           <!--左边模板开始-->  
           <tr>
-            <td height="12" background="images/index_18.gif"></td>
+            <td height="12" background="/images/index_18.gif"></td>
           </tr>
           <tr>
-            <td  background="images/index_22.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <td  background="/images/index_22.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td>&nbsp;</td>
                 <td align="left" class="sideTitle">★阅读排行</td>
@@ -371,7 +373,7 @@
               </tr> 
               <tr>
                 <td></td>
-                <td background="images/line.gif" height="1"></td>
+                <td background="/images/line.gif" height="1"></td>
                 <td></td>
                </tr> 
                                             
@@ -383,7 +385,7 @@
             </table></td>
           </tr>
           <tr>
-            <td height="12"  background="images/index_24.gif"></td>
+            <td height="12"  background="/images/index_24.gif"></td>
           </tr>
           <!--左边模板结束-->                              
         </table></td>
@@ -391,7 +393,7 @@
     </table></td>
   </tr>
   <tr>
-    <td height="71" valign="top" background="images/index_30.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <td height="71" valign="top" background="/images/index_30.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
         <td>&nbsp;</td>
       </tr>
