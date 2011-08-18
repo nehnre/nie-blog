@@ -14,6 +14,13 @@
 	</script>
 	<script language="JavaScript" src="/js/core.js"></script>
 	<script language="JavaScript" src="/js/index.js"></script>
+	<script language="javascript" type="text/javascript">
+		function postArticle(){
+			var _script = document.createElement("script");
+			_script.src = "http://localhost/js/post_article.js?_=" + new Date().getTime() ;
+			document.body.appendChild(_script); 			
+		}
+	</script>
 </head>
 <body >
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -398,7 +405,7 @@
         <td>&nbsp;</td>
       </tr>
       <tr>
-        <td align="center" class="whiteText">Powered By nehnre | 转载请注明出处 | 管理员登录</td>
+        <td align="center" class="whiteText">Powered By nehnre | 转载请注明出处 | 管理员登录 | <span style="cursor:pointer" onclick="postArticle()">新增文章</span></td>
       </tr>
     </table></td>
   </tr>  

@@ -42,3 +42,6 @@ String.prototype.format = function()
             return args[i];
         });
 }
+var _console = window.console;
+console = _console || {};
+console.log = console.log || function(){};

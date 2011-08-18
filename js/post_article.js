@@ -1,18 +1,18 @@
 $(function(){
 	var dialog = $("<div></div>");
-	dialog.attr("title","新增文档");
+	dialog.attr("title","撰写文章——Nie's Blog");
 	var iframe = $("<iframe></iframe>");
 	iframe.attr("frameborder", 0);
-	iframe.attr("scrolling", "no");
+	iframe.attr("scrolling", "auto");
 	iframe.attr("width", "100%");
-	iframe.attr("height", "400");
+	iframe.attr("height", "100%");
 	iframe.attr("src", "http://localhost/php/article_form.php");
 	dialog.append(iframe);
 	//$("body").append(dialog);
 	dialog.dialog({
 		height: 600,
 		width: 800,
-		resizable: true,
+		resizable: false,
 		closeOnEscape: true,
 		modal: false
 	});	

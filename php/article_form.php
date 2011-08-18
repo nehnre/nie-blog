@@ -2,6 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/themes/base/jquery-ui.css" type="text/css" media="all" /> 
+	<script language="JavaScript" src="http://www.google.com/jsapi"></script>
+	<script language="JavaScript">
+		google.load("jquery","1");
+		google.load("jqueryui","1");
+	</script>
+	<script language="JavaScript" src="/js/core.js"></script>
 	<style>
 		form {
 			margin: 0;
@@ -9,11 +16,17 @@
 		textarea {
 			display: block;
 		}
+		body {
+			font-size:12px;
+		}
+		.line24px{
+			line-height:24px;
+		}
 	</style>
 	<script charset="utf-8" src="../js/kindeditor/kindeditor.js"></script>
 	<script>
 		KE.show({
-			id : 'content1',
+			id : 'blar_content',
 			cssPath : '../js/kindeditor/examples/index.css',
 			afterCreate : function(id) {
 				KE.event.ctrl(document, 13, function() {
@@ -29,31 +42,44 @@
 	</script>
 </head>
 <body>
-		<form name="example" method="post" action="../php/demo.php">
-			<textarea id="content1" name="content1" style="width:700px;height:300px;visibility:hidden;">
-<p>
-	<img border="0" alt="" src="http://kindsoft.net/images/logo_180_30.gif" />
-</p>
-</p>
-KindEditor是一套开源的HTML可视化编辑器，主要用于让用户在网站上获得所见即所得编辑效果，兼容IE、Firefox、Chrome、Safari、Opera等主流浏览器。<br />
-KindEditor使用JavaScript编写，可以无缝的与Java、.NET、PHP、ASP等程序接合。
-KindEditor非常适合在CMS、商城、论坛、博客、Wiki、电子邮件等互联网应用上使用，2006年7月首次发布2.0以来，KindEditor依靠出色的用户体验和领先的技术不断扩大编辑器市场占有率，目前在国内已经成为最受欢迎的编辑器之一。 
-</p>
-<table width="90%">
-	<tr>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-	</tr>
-	<tr>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-		<td>&nbsp;</td>
-	</tr>
-</table>
-			</textarea>
-			<br />
-			<input type="submit" name="button" value="提交内容" /> (提交快捷键: Ctrl + Enter)
-		</form>
+	<form name="example" method="post" action="../php/demo.php">
+		<table width="98%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="60px" align="right">文章标题：</td>
+				<td><input type="text" value="" style="width:100%" name="blar_title"/></td>
+			</tr>
+			<tr>
+				<td width="60px" align="right">文章作者：</td>
+				<td><input type="text" value="nehnre" style="width:100%" name="blar_auther"/></td>
+			</tr>
+			<tr>
+				<td width="60px" align="right">文章来源：</td>
+				<td><input type="text" value="http://www.niehonglei.info" style="width:100%" name="blar_from"/></td>
+			</tr>
+			<tr>
+				<td width="60px" align="right">文章状态：</td>
+				<td><select name="blar_status" style="width:100%">
+					<option value="1">正常</option>
+					<option value="2">草稿</option>
+					<option value="3">推荐</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td width="60px" align="right">文章点击：</td>
+				<td><input type="text" value="0" style="width:100%" name="blar_clicks"/></td>
+			</tr>
+			<tr>
+				<td width="60px" align="right">tags：</td>
+				<td><input type="text" value="" style="width:100%"/></td>
+			</tr>
+			<tr>
+				<td width="60px" align="right">文章摘要：</td>
+				<td><textarea style="width:100%"></textarea></td>
+			</tr>
+		</table>
+		<div><textarea id="blar_content" name="blar_content" style="width:100%;height:300px;visibility:hidden;"></textarea></div>
+		<br />
+		<input type="submit" name="button" value="提交内容" /> (提交快捷键: Ctrl + Enter)
+	</form>
 <body>
 </html>
