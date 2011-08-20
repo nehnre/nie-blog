@@ -1,0 +1,6 @@
+[ 2011-08-21T01:19:51+08:00 ] SQL: SHOW COLUMNS FROM `think_demo` [ RunTime:0.003116s ]
+[ 2011-08-21T01:19:51+08:00 ] SQL: SELECT * FROM `think_demo` [ RunTime:0.000607s ]
+[ 2011-08-21T01:19:53+08:00 ] SQL: SHOW COLUMNS FROM `think_demo` [ RunTime:0.003387s ]
+[ 2011-08-21T01:19:53+08:00 ] SQL: INSERT INTO `think_demo` (`title`,`content`) VALUES ('s','s') [ RunTime:0.000525s ]
+[ 2011-08-21T01:19:53+08:00 ] SQL: SHOW COLUMNS FROM `think_demo` [ RunTime:0.003152s ]
+[ 2011-08-21T01:19:53+08:00 ] SQL: SELECT * FROM `think_demo` [ RunTime:0.000637s ]
