@@ -42,7 +42,7 @@
 	</script>
 </head>
 <body>
-	<form name="example" method="post" action="../php/demo.php">
+	<form name="example" method="post" action="http://localhost/Index/saveArticle">
 		<table width="98%" border="0" cellspacing="0" cellpadding="0">
 			<tr>
 				<td width="60px" align="right">文章标题：</td>

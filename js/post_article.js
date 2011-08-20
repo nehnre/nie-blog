@@ -6,7 +6,7 @@ $(function(){
 	iframe.attr("scrolling", "auto");
 	iframe.attr("width", "100%");
 	iframe.attr("height", "100%");
-	iframe.attr("src", "http://localhost/php/article_form.php");
+	iframe.attr("src", "http://localhost/Index/articleForm");
 	dialog.append(iframe);
 	//$("body").append(dialog);
 	dialog.dialog({

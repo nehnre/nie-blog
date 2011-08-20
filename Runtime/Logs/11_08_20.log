@@ -1,0 +1,35 @@
+[ 2011-08-20T23:14:40+08:00 ] SQL: SHOW COLUMNS FROM `blog_demo` [ RunTime:0.184425s ]
+[ 2011-08-20T23:14:40+08:00 ] SQL: SELECT * FROM `blog_demo` [ RunTime:0.000631s ]
+[ 2011-08-20T23:25:50+08:00 ] SQL: SHOW COLUMNS FROM `blog_demo` [ RunTime:0.003858s ]
+[ 2011-08-20T23:25:50+08:00 ] SQL: SELECT * FROM `blog_demo` [ RunTime:0.000501s ]
+[ 2011-08-20T23:37:25+08:00 ] SQL: SHOW COLUMNS FROM `blog_demo` [ RunTime:0.002729s ]
+[ 2011-08-20T23:37:25+08:00 ] SQL: SELECT * FROM `blog_demo` [ RunTime:0.000525s ]
+[ 2011-08-20T23:37:38+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.091715s ]
+[ 2011-08-20T23:38:41+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003643s ]
+[ 2011-08-20T23:39:08+08:00 ] SQL: SHOW COLUMNS FROM `blog_demo` [ RunTime:0.003975s ]
+[ 2011-08-20T23:39:08+08:00 ] SQL: SELECT * FROM `blog_demo` [ RunTime:0.000507s ]
+[ 2011-08-20T23:40:20+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.005164s ]
+[ 2011-08-20T23:40:54+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003810s ]
+[ 2011-08-20T23:40:58+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003633s ]
+[ 2011-08-20T23:42:46+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.004972s ]
+[ 2011-08-20T23:42:49+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003677s ]
+[ 2011-08-20T23:45:07+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003783s ]
+[ 2011-08-20T23:45:36+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.004706s ]
+[ 2011-08-20T23:45:36+08:00 ] NOTIC: [4096] Object of class Model could not be converted to string IndexAction.class.php 第 47 行.
+[ 2011-08-20T23:45:38+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003660s ]
+[ 2011-08-20T23:45:38+08:00 ] NOTIC: [4096] Object of class Model could not be converted to string IndexAction.class.php 第 47 行.
+[ 2011-08-20T23:46:13+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003909s ]
+[ 2011-08-20T23:46:13+08:00 ] NOTIC: [4096] Object of class Model could not be converted to string IndexAction.class.php 第 47 行.
+[ 2011-08-20T23:46:16+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003604s ]
+[ 2011-08-20T23:46:16+08:00 ] NOTIC: [4096] Object of class Model could not be converted to string IndexAction.class.php 第 47 行.
+[ 2011-08-20T23:49:11+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003926s ]
+[ 2011-08-20T23:49:11+08:00 ] NOTIC: [8] Undefined variable: Article 37ca52b07fe6c19342fbc4ef06e2cea2.php 第 1 行.
+[ 2011-08-20T23:50:35+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003660s ]
+[ 2011-08-20T23:50:35+08:00 ] NOTIC: [4096] Object of class Model could not be converted to string 37ca52b07fe6c19342fbc4ef06e2cea2.php 第 1 行.
+[ 2011-08-20T23:56:43+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003750s ]
+[ 2011-08-20T23:57:24+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003842s ]
+[ 2011-08-20T23:58:15+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003391s ]
+[ 2011-08-20T23:59:36+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003955s ]
+[ 2011-08-20T23:59:41+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003605s ]
+[ 2011-08-20T23:59:50+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003578s ]
+[ 2011-08-20T23:59:53+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003783s ]

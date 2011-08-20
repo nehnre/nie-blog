@@ -27,9 +27,9 @@ class IndexAction extends Action
 	// 数据查询操作
 
 	public function index() {
-		$Demo = new Model('Demo'); // 实例化模型类
-		$list = $Demo->select(); // 查询数据
-		$this->assign('list',$list); // 模板变量赋值
+		// $Demo = new Model('Demo'); // 实例化模型类
+		// $list = $Demo->select(); // 查询数据
+		// $this->assign('list',$list); // 模板变量赋值
 		$this->display(); // 输出模板
 	}
 	
@@ -37,6 +37,24 @@ class IndexAction extends Action
 		$Demo = new Model('Demo'); // 实例化模型类
 		$list = $Demo->select(); // 查询数据
 		$this->ajaxReturn($list,"新增错误！",1);
+	}
+	
+	public function articleForm() {
+		$this->display();
+	}
+	public function saveArticle() {
+		$Article = new Model('Article');
+		$Article->create();
+		$Article->blar_create_time = date("Y-m-d H:i:s");
+		$Article->blar_modify_time = date("Y-m-d H:i:s");
+		$result = $Article->add();
+		$Model = new Model();
+		$Model->query("select last_insert_id() as last");
+		$Content = new Model('Content');
+		$Content -> create();
+		//$Content -> blar_id = $Model(0)->last;
+		//$Content -> add();
+		$this->ajaxReturn($Model->query("select last_insert_id() as last"),"测试！",1);
 	}
 }
 ?>

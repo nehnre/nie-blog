@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50508
 File Encoding         : 65001
 
-Date: 2011-08-17 22:36:10
+Date: 2011-08-21 00:47:54
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -19,14 +19,14 @@ SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 DROP TABLE IF EXISTS `blog_message`;
 CREATE TABLE `blog_message` (
-  `blme_id` int(11) NOT NULL DEFAULT '0',
+  `blme_id` int(11) NOT NULL AUTO_INCREMENT,
   `blme_title` varchar(200) DEFAULT NULL,
   `blme_content` varchar(2000) DEFAULT NULL,
   `blme_nick_name` varchar(50) DEFAULT NULL,
   `blme_email` varchar(100) DEFAULT NULL,
-  `blme_create_time` date DEFAULT NULL,
+  `blme_create_time` datetime DEFAULT NULL,
   PRIMARY KEY (`blme_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of blog_message
