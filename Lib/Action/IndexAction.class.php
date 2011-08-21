@@ -28,8 +28,12 @@ class IndexAction extends Action
 
 	public function index() {
 		$Hot = new Model('Article');
-		$listHot = $Hot -> where("blar_status=3") -> order('blar_create_time desc') -> select();
+		$listHot = $Hot -> where("blar_status=3") -> order('blar_create_time desc') -> limit(5) -> select();
 		$this->assign('listHot',$listHot);
+		
+		$Order = new Model('Article');
+		$listOrder = $Order -> where("blar_status<>2") -> order('blar_clicks desc, blar_create_time desc') -> limit(10) -> select();
+		$this -> assign('listOrder', $listOrder);
 	
 		$Article = new Model('Article'); // 实例化模型类
 		import("ORG.Util.Page"); 

@@ -158,7 +158,7 @@
               </tr>
               <tr>
                 <td colspan="2">&nbsp;</td>
-                <td align="left" class="basicInfo">分类：<?php if(is_array($vo["tags"])): $i = 0; $__LIST__ = $vo["tags"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$tag): ++$i;$mod = ($i % 2 )?><?php if($i > 1): ?>,<?php endif; ?><?php echo ($tag["blta_name"]); ?><?php endforeach; endif; else: echo "" ;endif; ?>  - <?php echo ($vo["blar_author"]); ?> @ <?php echo ($vo["blar_create_time"]); ?> 评论：0条 点击：<?php echo ($vo["blar_clicks"]); ?>次</td>
+                <td align="left" class="basicInfo">分类：<?php if(isset($vo['tags'])): ?><?php if(is_array($vo["tags"])): $i = 0; $__LIST__ = $vo["tags"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$tag): ++$i;$mod = ($i % 2 )?><?php if($i > 1): ?>,<?php endif; ?><?php echo ($tag["blta_name"]); ?><?php endforeach; endif; else: echo "" ;endif; ?><?php else: ?>无<?php endif; ?>  - <?php echo ($vo["blar_author"]); ?> @ <?php echo ($vo["blar_create_time"]); ?> 评论：0条 点击：<?php echo ($vo["blar_clicks"]); ?>次</td>
                 <td>&nbsp;</td>
               </tr>
               <tr>
@@ -272,7 +272,7 @@
               <tr>
                 <td>&nbsp;</td>
                 <td align="left" class="sideTitle">★关于本站</td>
-                <td>&nbsp;</td>
+                <td></td>
               </tr>
               <tr>
                 <td height="5"></td>
@@ -287,7 +287,7 @@
                                            
               <tr>
                 <td width="6%">&nbsp;</td>
-                <td width="91%" align="left" class="about"></td>
+                <td width="91%" align="left" class="about">　　Nie's Blog目前是一款基于php的开源blog系统</td>
                 <td width="3%">&nbsp;</td>
               </tr>
             </table></td>
@@ -320,7 +320,7 @@
                                             
               <tr>
                 <td width="6%">&nbsp;</td>
-                <td width="91%" align="left" class="recentComments"></td>
+                <td width="91%" align="left" class="recentComments">此项功能开发中……</td>
                 <td width="3%">&nbsp;</td>
               </tr>
             </table></td>
@@ -386,7 +386,9 @@
                                             
               <tr>
                 <td width="6%">&nbsp;</td>
-                <td width="91%" align="left" class="readtop10"></td>
+                <td width="91%" align="left" class="readtop10">
+					<?php if(is_array($listOrder)): $i = 0; $__LIST__ = $listOrder;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$order): ++$i;$mod = ($i % 2 )?><div><a href="#"><?php echo ($order["blar_title"]); ?></a></div><?php endforeach; endif; else: echo "" ;endif; ?>
+				</td>
                 <td width="3%">&nbsp;</td>
               </tr>
             </table></td>

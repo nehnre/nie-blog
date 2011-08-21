@@ -1796,3 +1796,383 @@
 [ 2011-08-21T17:08:26+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
 [ 2011-08-21T17:08:26+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
 [ 2011-08-21T17:08:26+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:11:33+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003648s ]
+[ 2011-08-21T17:11:33+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status=3 ORDER BY blar_create_time desc [ RunTime:0.000885s ]
+[ 2011-08-21T17:11:33+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003283s ]
+[ 2011-08-21T17:11:33+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE blar_status<>2 LIMIT 1  [ RunTime:0.000679s ]
+[ 2011-08-21T17:11:33+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status<>2 ORDER BY blar_create_time desc LIMIT 30,5  [ RunTime:0.001107s ]
+[ 2011-08-21T17:11:33+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003835s ]
+[ 2011-08-21T17:11:33+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=1 [ RunTime:0.001072s ]
+[ 2011-08-21T17:11:33+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:11:36+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003717s ]
+[ 2011-08-21T17:11:36+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status=3 ORDER BY blar_create_time desc [ RunTime:0.000909s ]
+[ 2011-08-21T17:11:36+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003597s ]
+[ 2011-08-21T17:11:36+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE blar_status<>2 LIMIT 1  [ RunTime:0.000803s ]
+[ 2011-08-21T17:11:36+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status<>2 ORDER BY blar_create_time desc LIMIT 25,5  [ RunTime:0.001151s ]
+[ 2011-08-21T17:11:36+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003471s ]
+[ 2011-08-21T17:11:36+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=7 [ RunTime:0.000817s ]
+[ 2011-08-21T17:11:36+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003424s ]
+[ 2011-08-21T17:11:36+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=6 [ RunTime:0.000832s ]
+[ 2011-08-21T17:11:36+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003693s ]
+[ 2011-08-21T17:11:36+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=5 [ RunTime:0.000834s ]
+[ 2011-08-21T17:11:36+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003493s ]
+[ 2011-08-21T17:11:36+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=4 [ RunTime:0.000839s ]
+[ 2011-08-21T17:11:36+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003387s ]
+[ 2011-08-21T17:11:36+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=2 [ RunTime:0.001929s ]
+[ 2011-08-21T17:11:36+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:11:36+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:11:36+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:11:36+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:11:36+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:12:35+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003674s ]
+[ 2011-08-21T17:12:35+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status=3 ORDER BY blar_create_time desc [ RunTime:0.000972s ]
+[ 2011-08-21T17:12:35+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003377s ]
+[ 2011-08-21T17:12:35+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE blar_status<>2 LIMIT 1  [ RunTime:0.000668s ]
+[ 2011-08-21T17:12:35+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status<>2 ORDER BY blar_create_time desc LIMIT 25,5  [ RunTime:0.001260s ]
+[ 2011-08-21T17:12:35+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003534s ]
+[ 2011-08-21T17:12:35+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=7 [ RunTime:0.000822s ]
+[ 2011-08-21T17:12:35+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003451s ]
+[ 2011-08-21T17:12:35+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=6 [ RunTime:0.001199s ]
+[ 2011-08-21T17:12:35+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.004413s ]
+[ 2011-08-21T17:12:35+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=5 [ RunTime:0.001081s ]
+[ 2011-08-21T17:12:35+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003861s ]
+[ 2011-08-21T17:12:35+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=4 [ RunTime:0.000882s ]
+[ 2011-08-21T17:12:35+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003225s ]
+[ 2011-08-21T17:12:35+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=2 [ RunTime:0.000919s ]
+[ 2011-08-21T17:12:35+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:12:35+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:12:35+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:12:35+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:12:35+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:12:53+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003621s ]
+[ 2011-08-21T17:12:53+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status=3 ORDER BY blar_create_time desc [ RunTime:0.000982s ]
+[ 2011-08-21T17:12:53+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003369s ]
+[ 2011-08-21T17:12:53+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE blar_status<>2 LIMIT 1  [ RunTime:0.000697s ]
+[ 2011-08-21T17:12:53+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status<>2 ORDER BY blar_create_time desc LIMIT 25,5  [ RunTime:0.001148s ]
+[ 2011-08-21T17:12:53+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003641s ]
+[ 2011-08-21T17:12:53+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=7 [ RunTime:0.001062s ]
+[ 2011-08-21T17:12:53+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003405s ]
+[ 2011-08-21T17:12:53+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=6 [ RunTime:0.001122s ]
+[ 2011-08-21T17:12:53+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003506s ]
+[ 2011-08-21T17:12:53+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=5 [ RunTime:0.000849s ]
+[ 2011-08-21T17:12:53+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003544s ]
+[ 2011-08-21T17:12:53+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=4 [ RunTime:0.001244s ]
+[ 2011-08-21T17:12:53+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003352s ]
+[ 2011-08-21T17:12:53+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=2 [ RunTime:0.000811s ]
+[ 2011-08-21T17:12:53+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:12:53+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:12:53+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:12:53+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:12:53+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:13:12+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003606s ]
+[ 2011-08-21T17:13:12+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status=3 ORDER BY blar_create_time desc [ RunTime:0.000879s ]
+[ 2011-08-21T17:13:12+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003294s ]
+[ 2011-08-21T17:13:12+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE blar_status<>2 LIMIT 1  [ RunTime:0.000820s ]
+[ 2011-08-21T17:13:12+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status<>2 ORDER BY blar_create_time desc LIMIT 25,5  [ RunTime:0.001133s ]
+[ 2011-08-21T17:13:12+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003424s ]
+[ 2011-08-21T17:13:12+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=7 [ RunTime:0.001140s ]
+[ 2011-08-21T17:13:12+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003451s ]
+[ 2011-08-21T17:13:12+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=6 [ RunTime:0.000823s ]
+[ 2011-08-21T17:13:12+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003419s ]
+[ 2011-08-21T17:13:12+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=5 [ RunTime:0.000929s ]
+[ 2011-08-21T17:13:12+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003869s ]
+[ 2011-08-21T17:13:12+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=4 [ RunTime:0.000981s ]
+[ 2011-08-21T17:13:12+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003259s ]
+[ 2011-08-21T17:13:12+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=2 [ RunTime:0.000792s ]
+[ 2011-08-21T17:13:12+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:13:12+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:13:12+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:13:12+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:13:12+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:13:44+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003482s ]
+[ 2011-08-21T17:13:44+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status=3 ORDER BY blar_create_time desc [ RunTime:0.000908s ]
+[ 2011-08-21T17:13:44+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003364s ]
+[ 2011-08-21T17:13:44+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE blar_status<>2 LIMIT 1  [ RunTime:0.000662s ]
+[ 2011-08-21T17:13:45+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status<>2 ORDER BY blar_create_time desc LIMIT 25,5  [ RunTime:0.001352s ]
+[ 2011-08-21T17:13:45+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003565s ]
+[ 2011-08-21T17:13:45+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=7 [ RunTime:0.000951s ]
+[ 2011-08-21T17:13:45+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003316s ]
+[ 2011-08-21T17:13:45+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=6 [ RunTime:0.000857s ]
+[ 2011-08-21T17:13:45+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003281s ]
+[ 2011-08-21T17:13:45+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=5 [ RunTime:0.001414s ]
+[ 2011-08-21T17:13:45+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003630s ]
+[ 2011-08-21T17:13:45+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=4 [ RunTime:0.000843s ]
+[ 2011-08-21T17:13:45+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003263s ]
+[ 2011-08-21T17:13:45+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=2 [ RunTime:0.001006s ]
+[ 2011-08-21T17:13:45+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:13:45+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:13:45+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:13:45+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:13:45+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:15:32+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003548s ]
+[ 2011-08-21T17:15:32+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status=3 ORDER BY blar_create_time desc [ RunTime:0.001036s ]
+[ 2011-08-21T17:15:32+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003329s ]
+[ 2011-08-21T17:15:32+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE blar_status<>2 LIMIT 1  [ RunTime:0.000671s ]
+[ 2011-08-21T17:15:32+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status<>2 ORDER BY blar_create_time desc LIMIT 0,5  [ RunTime:0.000888s ]
+[ 2011-08-21T17:15:32+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003210s ]
+[ 2011-08-21T17:15:32+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=33 [ RunTime:0.000922s ]
+[ 2011-08-21T17:15:32+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003147s ]
+[ 2011-08-21T17:15:32+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=32 [ RunTime:0.000886s ]
+[ 2011-08-21T17:15:32+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003090s ]
+[ 2011-08-21T17:15:32+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=31 [ RunTime:0.000763s ]
+[ 2011-08-21T17:15:32+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003354s ]
+[ 2011-08-21T17:15:32+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=30 [ RunTime:0.000834s ]
+[ 2011-08-21T17:15:32+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003589s ]
+[ 2011-08-21T17:15:32+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=29 [ RunTime:0.001294s ]
+[ 2011-08-21T17:15:32+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:15:32+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:15:32+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:17:21+08:00 ] ERR: (ThinkException) Model:top5您所请求的方法不存在！
+[ 2011-08-21T17:21:39+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003664s ]
+[ 2011-08-21T17:21:39+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status=3 ORDER BY blar_create_time desc LIMIT 5  [ RunTime:0.000929s ]
+[ 2011-08-21T17:21:39+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003367s ]
+[ 2011-08-21T17:21:39+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status<>2 ORDER BY blar_clicks desc, blar_create_time desc LIMIT 10  [ RunTime:0.001058s ]
+[ 2011-08-21T17:21:39+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003442s ]
+[ 2011-08-21T17:21:39+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE blar_status<>2 LIMIT 1  [ RunTime:0.000674s ]
+[ 2011-08-21T17:21:39+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status<>2 ORDER BY blar_create_time desc LIMIT 25,5  [ RunTime:0.001211s ]
+[ 2011-08-21T17:21:39+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003504s ]
+[ 2011-08-21T17:21:39+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=7 [ RunTime:0.000856s ]
+[ 2011-08-21T17:21:39+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.004709s ]
+[ 2011-08-21T17:21:39+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=6 [ RunTime:0.001072s ]
+[ 2011-08-21T17:21:39+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003354s ]
+[ 2011-08-21T17:21:39+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=5 [ RunTime:0.000956s ]
+[ 2011-08-21T17:21:39+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003724s ]
+[ 2011-08-21T17:21:39+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=4 [ RunTime:0.000853s ]
+[ 2011-08-21T17:21:39+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003320s ]
+[ 2011-08-21T17:21:39+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=2 [ RunTime:0.000783s ]
+[ 2011-08-21T17:21:39+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:21:39+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:21:39+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:21:39+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:21:39+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:21:39+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:21:39+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:21:39+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:21:39+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:21:39+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:21:39+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:21:39+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:21:39+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:21:39+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:21:39+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:27+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003424s ]
+[ 2011-08-21T17:24:27+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status=3 ORDER BY blar_create_time desc LIMIT 5  [ RunTime:0.000898s ]
+[ 2011-08-21T17:24:27+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003472s ]
+[ 2011-08-21T17:24:27+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status<>2 ORDER BY blar_clicks desc, blar_create_time desc LIMIT 10  [ RunTime:0.001088s ]
+[ 2011-08-21T17:24:27+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003446s ]
+[ 2011-08-21T17:24:27+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE blar_status<>2 LIMIT 1  [ RunTime:0.001158s ]
+[ 2011-08-21T17:24:27+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status<>2 ORDER BY blar_create_time desc LIMIT 25,5  [ RunTime:0.001171s ]
+[ 2011-08-21T17:24:27+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003443s ]
+[ 2011-08-21T17:24:27+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=7 [ RunTime:0.000837s ]
+[ 2011-08-21T17:24:27+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003953s ]
+[ 2011-08-21T17:24:27+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=6 [ RunTime:0.001216s ]
+[ 2011-08-21T17:24:27+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003430s ]
+[ 2011-08-21T17:24:27+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=5 [ RunTime:0.000846s ]
+[ 2011-08-21T17:24:27+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003367s ]
+[ 2011-08-21T17:24:27+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=4 [ RunTime:0.001044s ]
+[ 2011-08-21T17:24:27+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003453s ]
+[ 2011-08-21T17:24:27+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=2 [ RunTime:0.000783s ]
+[ 2011-08-21T17:24:27+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:24:27+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:24:27+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:24:27+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:24:27+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:24:27+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:27+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:27+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:27+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:27+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:27+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:27+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:27+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:27+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:27+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:30+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003481s ]
+[ 2011-08-21T17:24:30+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status=3 ORDER BY blar_create_time desc LIMIT 5  [ RunTime:0.000890s ]
+[ 2011-08-21T17:24:30+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003343s ]
+[ 2011-08-21T17:24:30+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status<>2 ORDER BY blar_clicks desc, blar_create_time desc LIMIT 10  [ RunTime:0.001093s ]
+[ 2011-08-21T17:24:30+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003431s ]
+[ 2011-08-21T17:24:30+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE blar_status<>2 LIMIT 1  [ RunTime:0.000650s ]
+[ 2011-08-21T17:24:30+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status<>2 ORDER BY blar_create_time desc LIMIT 0,5  [ RunTime:0.000787s ]
+[ 2011-08-21T17:24:30+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003477s ]
+[ 2011-08-21T17:24:30+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=33 [ RunTime:0.000909s ]
+[ 2011-08-21T17:24:30+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003427s ]
+[ 2011-08-21T17:24:30+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=32 [ RunTime:0.000924s ]
+[ 2011-08-21T17:24:31+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003305s ]
+[ 2011-08-21T17:24:31+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=31 [ RunTime:0.000840s ]
+[ 2011-08-21T17:24:31+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003659s ]
+[ 2011-08-21T17:24:31+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=30 [ RunTime:0.001008s ]
+[ 2011-08-21T17:24:31+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003535s ]
+[ 2011-08-21T17:24:31+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=29 [ RunTime:0.000968s ]
+[ 2011-08-21T17:24:31+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:24:31+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:24:31+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:24:31+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:31+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:31+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:31+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:31+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:31+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:31+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:31+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:31+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:31+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:34+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003777s ]
+[ 2011-08-21T17:24:34+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status=3 ORDER BY blar_create_time desc LIMIT 5  [ RunTime:0.000953s ]
+[ 2011-08-21T17:24:34+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003584s ]
+[ 2011-08-21T17:24:34+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status<>2 ORDER BY blar_clicks desc, blar_create_time desc LIMIT 10  [ RunTime:0.001250s ]
+[ 2011-08-21T17:24:34+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003569s ]
+[ 2011-08-21T17:24:34+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE blar_status<>2 LIMIT 1  [ RunTime:0.000844s ]
+[ 2011-08-21T17:24:34+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status<>2 ORDER BY blar_create_time desc LIMIT 0,5  [ RunTime:0.000836s ]
+[ 2011-08-21T17:24:34+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003432s ]
+[ 2011-08-21T17:24:34+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=33 [ RunTime:0.001140s ]
+[ 2011-08-21T17:24:34+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003263s ]
+[ 2011-08-21T17:24:34+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=32 [ RunTime:0.000962s ]
+[ 2011-08-21T17:24:34+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003879s ]
+[ 2011-08-21T17:24:34+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=31 [ RunTime:0.000990s ]
+[ 2011-08-21T17:24:34+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003343s ]
+[ 2011-08-21T17:24:34+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=30 [ RunTime:0.000884s ]
+[ 2011-08-21T17:24:34+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003655s ]
+[ 2011-08-21T17:24:34+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=29 [ RunTime:0.000804s ]
+[ 2011-08-21T17:24:34+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:24:34+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:24:34+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:24:34+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:34+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:34+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:34+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:34+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:34+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:34+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:34+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:34+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:24:34+08:00 ] NOTIC: [8] Undefined index: blar_name a4c9390901a693ebb5cfd712fbca1750.php 第 390 行.
+[ 2011-08-21T17:26:19+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003835s ]
+[ 2011-08-21T17:26:19+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status=3 ORDER BY blar_create_time desc LIMIT 5  [ RunTime:0.001011s ]
+[ 2011-08-21T17:26:19+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003908s ]
+[ 2011-08-21T17:26:19+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status<>2 ORDER BY blar_clicks desc, blar_create_time desc LIMIT 10  [ RunTime:0.001108s ]
+[ 2011-08-21T17:26:19+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.004420s ]
+[ 2011-08-21T17:26:19+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE blar_status<>2 LIMIT 1  [ RunTime:0.000681s ]
+[ 2011-08-21T17:26:19+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status<>2 ORDER BY blar_create_time desc LIMIT 0,5  [ RunTime:0.000822s ]
+[ 2011-08-21T17:26:19+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003755s ]
+[ 2011-08-21T17:26:19+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=33 [ RunTime:0.000918s ]
+[ 2011-08-21T17:26:19+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003506s ]
+[ 2011-08-21T17:26:19+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=32 [ RunTime:0.001083s ]
+[ 2011-08-21T17:26:19+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003699s ]
+[ 2011-08-21T17:26:19+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=31 [ RunTime:0.002154s ]
+[ 2011-08-21T17:26:19+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003824s ]
+[ 2011-08-21T17:26:19+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=30 [ RunTime:0.000970s ]
+[ 2011-08-21T17:26:19+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003648s ]
+[ 2011-08-21T17:26:19+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=29 [ RunTime:0.001127s ]
+[ 2011-08-21T17:26:19+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:26:19+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:26:19+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:27:57+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003690s ]
+[ 2011-08-21T17:27:57+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status=3 ORDER BY blar_create_time desc LIMIT 5  [ RunTime:0.000901s ]
+[ 2011-08-21T17:27:57+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003191s ]
+[ 2011-08-21T17:27:57+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status<>2 ORDER BY blar_clicks desc, blar_create_time desc LIMIT 10  [ RunTime:0.001090s ]
+[ 2011-08-21T17:27:57+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003247s ]
+[ 2011-08-21T17:27:57+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE blar_status<>2 LIMIT 1  [ RunTime:0.000699s ]
+[ 2011-08-21T17:27:57+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status<>2 ORDER BY blar_create_time desc LIMIT 0,5  [ RunTime:0.000773s ]
+[ 2011-08-21T17:27:57+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003777s ]
+[ 2011-08-21T17:27:57+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=33 [ RunTime:0.000959s ]
+[ 2011-08-21T17:27:57+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003349s ]
+[ 2011-08-21T17:27:57+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=32 [ RunTime:0.000949s ]
+[ 2011-08-21T17:27:57+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003147s ]
+[ 2011-08-21T17:27:57+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=31 [ RunTime:0.000789s ]
+[ 2011-08-21T17:27:57+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003908s ]
+[ 2011-08-21T17:27:57+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=30 [ RunTime:0.000906s ]
+[ 2011-08-21T17:27:57+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003297s ]
+[ 2011-08-21T17:27:57+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=29 [ RunTime:0.000813s ]
+[ 2011-08-21T17:27:57+08:00 ] NOTIC: [8] Use of undefined constant tags - assumed 'tags' a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:27:57+08:00 ] NOTIC: [8] Use of undefined constant tags - assumed 'tags' a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:27:57+08:00 ] NOTIC: [8] Use of undefined constant tags - assumed 'tags' a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:27:57+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:27:57+08:00 ] NOTIC: [8] Use of undefined constant tags - assumed 'tags' a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:27:57+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:27:57+08:00 ] NOTIC: [8] Use of undefined constant tags - assumed 'tags' a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:27:57+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:28:31+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003387s ]
+[ 2011-08-21T17:28:31+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status=3 ORDER BY blar_create_time desc LIMIT 5  [ RunTime:0.000916s ]
+[ 2011-08-21T17:28:31+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003745s ]
+[ 2011-08-21T17:28:31+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status<>2 ORDER BY blar_clicks desc, blar_create_time desc LIMIT 10  [ RunTime:0.001014s ]
+[ 2011-08-21T17:28:31+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003346s ]
+[ 2011-08-21T17:28:31+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE blar_status<>2 LIMIT 1  [ RunTime:0.000677s ]
+[ 2011-08-21T17:28:31+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status<>2 ORDER BY blar_create_time desc LIMIT 0,5  [ RunTime:0.000806s ]
+[ 2011-08-21T17:28:31+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003540s ]
+[ 2011-08-21T17:28:31+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=33 [ RunTime:0.001063s ]
+[ 2011-08-21T17:28:31+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003809s ]
+[ 2011-08-21T17:28:31+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=32 [ RunTime:0.001127s ]
+[ 2011-08-21T17:28:31+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003474s ]
+[ 2011-08-21T17:28:31+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=31 [ RunTime:0.000836s ]
+[ 2011-08-21T17:28:31+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003424s ]
+[ 2011-08-21T17:28:31+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=30 [ RunTime:0.000793s ]
+[ 2011-08-21T17:28:31+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003228s ]
+[ 2011-08-21T17:28:31+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=29 [ RunTime:0.000951s ]
+[ 2011-08-21T17:28:31+08:00 ] NOTIC: [8] Use of undefined constant tags - assumed 'tags' a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:28:31+08:00 ] NOTIC: [8] Use of undefined constant tags - assumed 'tags' a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:28:31+08:00 ] NOTIC: [8] Use of undefined constant tags - assumed 'tags' a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:28:31+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:28:31+08:00 ] NOTIC: [8] Use of undefined constant tags - assumed 'tags' a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:28:31+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:28:31+08:00 ] NOTIC: [8] Use of undefined constant tags - assumed 'tags' a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:28:31+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:28:54+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003698s ]
+[ 2011-08-21T17:28:54+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status=3 ORDER BY blar_create_time desc LIMIT 5  [ RunTime:0.000983s ]
+[ 2011-08-21T17:28:54+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003542s ]
+[ 2011-08-21T17:28:54+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status<>2 ORDER BY blar_clicks desc, blar_create_time desc LIMIT 10  [ RunTime:0.001040s ]
+[ 2011-08-21T17:28:54+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003616s ]
+[ 2011-08-21T17:28:54+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE blar_status<>2 LIMIT 1  [ RunTime:0.000686s ]
+[ 2011-08-21T17:28:54+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status<>2 ORDER BY blar_create_time desc LIMIT 0,5  [ RunTime:0.000827s ]
+[ 2011-08-21T17:28:54+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003508s ]
+[ 2011-08-21T17:28:54+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=33 [ RunTime:0.001087s ]
+[ 2011-08-21T17:28:54+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003439s ]
+[ 2011-08-21T17:28:54+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=32 [ RunTime:0.001352s ]
+[ 2011-08-21T17:28:54+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003756s ]
+[ 2011-08-21T17:28:54+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=31 [ RunTime:0.000963s ]
+[ 2011-08-21T17:28:54+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003265s ]
+[ 2011-08-21T17:28:54+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=30 [ RunTime:0.000789s ]
+[ 2011-08-21T17:28:54+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003367s ]
+[ 2011-08-21T17:28:54+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=29 [ RunTime:0.000785s ]
+[ 2011-08-21T17:28:54+08:00 ] NOTIC: [8] Use of undefined constant tags - assumed 'tags' a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:28:54+08:00 ] NOTIC: [8] Use of undefined constant tags - assumed 'tags' a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:28:54+08:00 ] NOTIC: [8] Use of undefined constant tags - assumed 'tags' a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:28:54+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:28:54+08:00 ] NOTIC: [8] Use of undefined constant tags - assumed 'tags' a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:28:54+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:28:54+08:00 ] NOTIC: [8] Use of undefined constant tags - assumed 'tags' a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:28:54+08:00 ] NOTIC: [8] Undefined index: tags a4c9390901a693ebb5cfd712fbca1750.php 第 161 行.
+[ 2011-08-21T17:38:32+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003661s ]
+[ 2011-08-21T17:38:32+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status=3 ORDER BY blar_create_time desc LIMIT 5  [ RunTime:0.001092s ]
+[ 2011-08-21T17:38:32+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003644s ]
+[ 2011-08-21T17:38:32+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status<>2 ORDER BY blar_clicks desc, blar_create_time desc LIMIT 10  [ RunTime:0.001221s ]
+[ 2011-08-21T17:38:32+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003575s ]
+[ 2011-08-21T17:38:32+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE blar_status<>2 LIMIT 1  [ RunTime:0.001244s ]
+[ 2011-08-21T17:38:32+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status<>2 ORDER BY blar_create_time desc LIMIT 0,5  [ RunTime:0.001248s ]
+[ 2011-08-21T17:38:32+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003895s ]
+[ 2011-08-21T17:38:32+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=33 [ RunTime:0.001072s ]
+[ 2011-08-21T17:38:32+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003623s ]
+[ 2011-08-21T17:38:32+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=32 [ RunTime:0.001325s ]
+[ 2011-08-21T17:38:32+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003746s ]
+[ 2011-08-21T17:38:32+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=31 [ RunTime:0.000980s ]
+[ 2011-08-21T17:38:32+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003753s ]
+[ 2011-08-21T17:38:32+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=30 [ RunTime:0.001123s ]
+[ 2011-08-21T17:38:32+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.005553s ]
+[ 2011-08-21T17:38:32+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=29 [ RunTime:0.001030s ]
+[ 2011-08-21T17:38:43+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.004068s ]
+[ 2011-08-21T17:38:43+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status=3 ORDER BY blar_create_time desc LIMIT 5  [ RunTime:0.000893s ]
+[ 2011-08-21T17:38:43+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.003479s ]
+[ 2011-08-21T17:38:43+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status<>2 ORDER BY blar_clicks desc, blar_create_time desc LIMIT 10  [ RunTime:0.001166s ]
+[ 2011-08-21T17:38:43+08:00 ] SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.005724s ]
+[ 2011-08-21T17:38:43+08:00 ] SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE blar_status<>2 LIMIT 1  [ RunTime:0.000778s ]
+[ 2011-08-21T17:38:43+08:00 ] SQL: SELECT * FROM `blog_article` WHERE blar_status<>2 ORDER BY blar_create_time desc LIMIT 0,5  [ RunTime:0.000844s ]
+[ 2011-08-21T17:38:43+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003268s ]
+[ 2011-08-21T17:38:43+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=33 [ RunTime:0.001886s ]
+[ 2011-08-21T17:38:43+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003295s ]
+[ 2011-08-21T17:38:43+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=32 [ RunTime:0.001046s ]
+[ 2011-08-21T17:38:43+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003497s ]
+[ 2011-08-21T17:38:43+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=31 [ RunTime:0.000824s ]
+[ 2011-08-21T17:38:43+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.004056s ]
+[ 2011-08-21T17:38:43+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=30 [ RunTime:0.000879s ]
+[ 2011-08-21T17:38:43+08:00 ] SQL: SHOW COLUMNS FROM `blog_view_ar_tags` [ RunTime:0.003663s ]
+[ 2011-08-21T17:38:43+08:00 ] SQL: SELECT * FROM `blog_view_ar_tags` WHERE blar_id=29 [ RunTime:0.001135s ]

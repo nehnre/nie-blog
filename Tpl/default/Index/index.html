@@ -161,7 +161,7 @@
               </tr>
               <tr>
                 <td colspan="2">&nbsp;</td>
-                <td align="left" class="basicInfo">分类：<volist name="vo.tags" id="tag"><if condition="$i gt 1">,</if>{$tag.blta_name}</volist>  - {$vo.blar_author} @ {$vo.blar_create_time} 评论：0条 点击：{$vo.blar_clicks}次</td>
+                <td align="left" class="basicInfo">分类：<if condition="isset($vo['tags'])"><volist name="vo.tags" id="tag"><if condition="$i gt 1">,</if>{$tag.blta_name}</volist><else />无</if>  - {$vo.blar_author} @ {$vo.blar_create_time} 评论：0条 点击：{$vo.blar_clicks}次</td>
                 <td>&nbsp;</td>
               </tr>
               <tr>
@@ -276,7 +276,7 @@
               <tr>
                 <td>&nbsp;</td>
                 <td align="left" class="sideTitle">★关于本站</td>
-                <td>&nbsp;</td>
+                <td></td>
               </tr>
               <tr>
                 <td height="5"></td>
@@ -291,7 +291,7 @@
                                            
               <tr>
                 <td width="6%">&nbsp;</td>
-                <td width="91%" align="left" class="about"></td>
+                <td width="91%" align="left" class="about">　　Nie's Blog目前是一款基于php的开源blog系统</td>
                 <td width="3%">&nbsp;</td>
               </tr>
             </table></td>
@@ -324,7 +324,7 @@
                                             
               <tr>
                 <td width="6%">&nbsp;</td>
-                <td width="91%" align="left" class="recentComments"></td>
+                <td width="91%" align="left" class="recentComments">此项功能开发中……</td>
                 <td width="3%">&nbsp;</td>
               </tr>
             </table></td>
@@ -390,7 +390,11 @@
                                             
               <tr>
                 <td width="6%">&nbsp;</td>
-                <td width="91%" align="left" class="readtop10"></td>
+                <td width="91%" align="left" class="readtop10">
+					<volist name="listOrder" id="order">
+						<div><a href="#">{$order.blar_title}</a></div>
+					</volist>
+				</td>
                 <td width="3%">&nbsp;</td>
               </tr>
             </table></td>
