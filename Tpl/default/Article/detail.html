@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -123,23 +123,25 @@
               <tr>
                 <td width="2%" height="34">&nbsp;</td>
                 <td width="95%" align="left"  class="hotText">
-					<?php if(is_array($listHot)): $i = 0; $__LIST__ = $listHot;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): ++$i;$mod = ($i % 2 )?>&nbsp;<?php if($i > 1): ?>|<?php endif; ?>&nbsp;<a href="#" class="whiteText"><?php echo ($vo["blar_title"]); ?></a><?php endforeach; endif; else: echo "" ;endif; ?>
+					<volist name='listHot' id='vo'>
+						&nbsp;<if condition="$i gt 1"> | </if>&nbsp;<a href="#" class="whiteText">{$vo.blar_title}</a>
+					</volist>
 				</td>
                 <td width="3%">&nbsp;</td>
               </tr>
             </table></td>
           </tr>
                
-		  <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): ++$i;$mod = ($i % 2 )?><!--文章模板开始-->
+          <!--文章模板开始-->
           <tr class="contentmodel">
             <td height="13" background="/images/index_14.gif"></td>
           </tr>
           <tr class="contentmodel">
             <td  background="/images/index_16.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
-                <td colspan="2">&nbsp;</td>
-                <td width="95%" align="left"><a href="/index.php/Article/detail?blar_id=<?php echo ($vo["blar_id"]); ?>" class="title"><?php echo ($vo["blar_title"]); ?></a></td>
-                <td>&nbsp;</td>
+                <td colspan="2" width="30">&nbsp;</td>
+                <td width="662" align="left"><a href="/index.php/Article/detail?blar_id={$vo.blar_id}" class="title">{$vo.blar_title}</a></td>
+                <td width="30">&nbsp;</td>
               </tr>
               <tr>
                 <td height="5" colspan="2"></td>
@@ -158,7 +160,7 @@
               </tr>
               <tr>
                 <td colspan="2">&nbsp;</td>
-                <td align="left" class="basicInfo">分类：<?php if(isset($vo['tags'])): ?><?php if(is_array($vo["tags"])): $i = 0; $__LIST__ = $vo["tags"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$tag): ++$i;$mod = ($i % 2 )?><?php if($i > 1): ?>,<?php endif; ?><?php echo ($tag["blta_name"]); ?><?php endforeach; endif; else: echo "" ;endif; ?><?php else: ?>无<?php endif; ?>  - <?php echo ($vo["blar_author"]); ?> @ <?php echo ($vo["blar_create_time"]); ?> 评论：0条 点击：<?php echo ($vo["blar_clicks"]); ?>次</td>
+                <td align="left" class="basicInfo">分类：<if condition="isset($vo['tags'])"><volist name="vo.tags" id="tag"><if condition="$i gt 1">,</if>{$tag.blta_name}</volist><else />无</if>  - {$vo.blar_author} @ {$vo.blar_create_time} 评论：0条 点击：{$vo.blar_clicks}次</td>
                 <td>&nbsp;</td>
               </tr>
               <tr>
@@ -167,41 +169,23 @@
                 <td></td>
               </tr>
               <tr>
-                <td width="2%"><p>&nbsp;</p></td>
-                <td colspan="2" align="left" class="content"><font size="20">“</font><?php echo ($vo["blar_abstract"]); ?>...</td>
-                <td width="1%">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td colspan="2" align="left" class="content">{$vo.blar_content}</td>
+                <td>&nbsp;</td>
               </tr>
             </table></td>
           </tr>
           <tr class="contentmodel">
             <td height="11"  background="/images/index_20.gif"></td>
           </tr>
-		  <!--文章模板结束--><?php endforeach; endif; else: echo "" ;endif; ?>
-                  
-           <!--分页模板开始-->
-          <tr>
-            <td height="13" background="/images/index_14.gif"></td>
-          </tr>
-          <tr>
-            <td  background="/images/index_16.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
-              <tr>
-                <td width="2%">&nbsp;</td>
-                <td width="97%" align="left"><?php echo ($page); ?></td>
-                <td width="1%">&nbsp;</td>
-              </tr>
-              </table></td>
-          </tr>
-          <tr>
-            <td height="11"  background="/images/index_20.gif"></td>
-          </tr>
-		  <!--分页模板结束-->
+		  <!--文章模板结束-->
                     
         </table></td>
         <td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td>&nbsp;</td>
           </tr>
-          <!--左边模板开始-->  
+          <!--右边模板开始-->  
           <tr>
             <td height="12" background="/images/index_18.gif"></td>
           </tr>
@@ -235,8 +219,8 @@
           <tr>
             <td height="12"  background="/images/index_24.gif"></td>
           </tr>
-          <!--左边模板结束-->  
-          <!--左边模板开始-->  
+          <!--右边模板结束-->  
+          <!--右边模板开始-->  
           <tr>
             <td height="12" background="/images/index_18.gif"></td>
           </tr>
@@ -262,8 +246,8 @@
           <tr>
             <td height="12"  background="/images/index_24.gif"></td>
           </tr>
-          <!--左边模板结束-->  
-          <!--左边模板开始-->  
+          <!--右边模板结束-->  
+          <!--右边模板开始-->  
           <tr>
             <td height="12" background="/images/index_18.gif"></td>
           </tr>
@@ -295,8 +279,8 @@
           <tr>
             <td height="12"  background="/images/index_24.gif"></td>
           </tr>
-          <!--左边模板结束-->  
-          <!--左边模板开始-->  
+          <!--右边模板结束-->  
+          <!--右边模板开始-->  
           <tr>
             <td height="12" background="/images/index_18.gif"></td>
           </tr>
@@ -328,8 +312,8 @@
           <tr>
             <td height="12"  background="/images/index_24.gif"></td>
           </tr>
-          <!--左边模板结束-->                       
-          <!--左边模板开始-->  
+          <!--右边模板结束-->                       
+          <!--右边模板开始-->  
           <tr>
             <td height="12" background="/images/index_18.gif"></td>
           </tr>
@@ -361,8 +345,8 @@
           <tr>
             <td height="12"  background="/images/index_24.gif"></td>
           </tr>
-          <!--左边模板结束-->  
-          <!--左边模板开始-->  
+          <!--右边模板结束-->  
+          <!--右边模板开始-->  
           <tr>
             <td height="12" background="/images/index_18.gif"></td>
           </tr>
@@ -387,7 +371,9 @@
               <tr>
                 <td width="6%">&nbsp;</td>
                 <td width="91%" align="left" class="readtop10">
-					<?php if(is_array($listOrder)): $i = 0; $__LIST__ = $listOrder;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$order): ++$i;$mod = ($i % 2 )?><div><a href="/index.php/Article/detail?blar_id=<?php echo ($order["blar_id"]); ?>"><?php echo ($order["blar_title"]); ?></a></div><?php endforeach; endif; else: echo "" ;endif; ?>
+					<volist name="listOrder" id="order">
+						<div><a href="/index.php/Article/detail?blar_id={$order.blar_id}">{$order.blar_title}</a></div>
+					</volist>
 				</td>
                 <td width="3%">&nbsp;</td>
               </tr>
@@ -396,7 +382,7 @@
           <tr>
             <td height="12"  background="/images/index_24.gif"></td>
           </tr>
-          <!--左边模板结束-->                              
+          <!--右边模板结束-->                              
         </table></td>
       </tr>
     </table></td>

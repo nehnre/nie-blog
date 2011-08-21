@@ -93,5 +93,16 @@ class ArticleAction extends Action
 		$info = "修改成功！";
 		$this->ajaxReturn($blar_id,$info,1);
 	}
+	
+	public function detail() {
+		$blar_id = $_GET["blar_id"];
+		if(isset($blar_id) && !empty($blar_id)) {
+			$view_article = new Model('view_article');
+			$view_article->setInc('blar_clicks','blar_id='.$blar_id); 
+			$result = $view_article -> where('blar_id='.$blar_id) -> select();
+			$this -> assign("vo", $result[0]);
+			$this->display(); 
+		}
+	}
 }
 ?>

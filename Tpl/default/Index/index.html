@@ -26,7 +26,7 @@
     <td height="92" align="center" background="/images/index_01.gif"><table width="987" border="0" cellspacing="0" cellpadding="0">
       <tr>
         <td width="27">&nbsp;</td>
-        <td width="134"><a href=""><img src="/images/index_04.gif" alt="Nie's Home" border="0" longdesc="http://niehonglei.appspot.com" /></a></td>
+        <td width="134"><a href="/"><img src="/images/index_04.gif" alt="Nie's Home" border="0" longdesc="http://niehonglei.appspot.com" /></a></td>
         <td width="58" valign="middle">&nbsp;<img src="/images/index_06_2.gif" style="display:none" /></td>
         <!--分类模板开始-->
         <td width="79" align="center" background="/images/index_06.gif" class="fenlei"><table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -141,7 +141,7 @@
             <td  background="/images/index_16.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td colspan="2">&nbsp;</td>
-                <td width="95%" align="left"><a href="#" class="title">{$vo.blar_title}</a></td>
+                <td width="95%" align="left"><a href="/index.php/Article/detail?blar_id={$vo.blar_id}" class="title">{$vo.blar_title}</a></td>
                 <td>&nbsp;</td>
               </tr>
               <tr>
@@ -392,7 +392,7 @@
                 <td width="6%">&nbsp;</td>
                 <td width="91%" align="left" class="readtop10">
 					<volist name="listOrder" id="order">
-						<div><a href="#">{$order.blar_title}</a></div>
+						<div><a href="/index.php/Article/detail?blar_id={$order.blar_id}">{$order.blar_title}</a></div>
 					</volist>
 				</td>
                 <td width="3%">&nbsp;</td>

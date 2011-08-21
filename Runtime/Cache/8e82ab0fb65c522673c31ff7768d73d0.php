@@ -2,12 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/themes/base/jquery-ui.css" type="text/css" media="all" /> 
-	<script language="JavaScript" src="http://www.google.com/jsapi"></script>
-	<script language="JavaScript">
-		google.load("jquery","1");
-		google.load("jqueryui","1");
-	</script>
+	<script language="JavaScript" src="/js/jqueryui/js/jquery-1.6.2.min.js"></script>
 	<script language="JavaScript" src="/js/core.js"></script>
 	<style>
 		form {

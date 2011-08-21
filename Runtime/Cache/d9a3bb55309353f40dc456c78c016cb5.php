@@ -130,16 +130,16 @@
             </table></td>
           </tr>
                
-		  <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): ++$i;$mod = ($i % 2 )?><!--文章模板开始-->
+          <!--文章模板开始-->
           <tr class="contentmodel">
             <td height="13" background="/images/index_14.gif"></td>
           </tr>
           <tr class="contentmodel">
             <td  background="/images/index_16.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
-                <td colspan="2">&nbsp;</td>
-                <td width="95%" align="left"><a href="/index.php/Article/detail?blar_id=<?php echo ($vo["blar_id"]); ?>" class="title"><?php echo ($vo["blar_title"]); ?></a></td>
-                <td>&nbsp;</td>
+                <td colspan="2" width="30">&nbsp;</td>
+                <td width="662" align="left"><a href="/index.php/Article/detail?blar_id=<?php echo ($vo["blar_id"]); ?>" class="title"><?php echo ($vo["blar_title"]); ?></a></td>
+                <td width="30">&nbsp;</td>
               </tr>
               <tr>
                 <td height="5" colspan="2"></td>
@@ -167,41 +167,23 @@
                 <td></td>
               </tr>
               <tr>
-                <td width="2%"><p>&nbsp;</p></td>
-                <td colspan="2" align="left" class="content"><font size="20">“</font><?php echo ($vo["blar_abstract"]); ?>...</td>
-                <td width="1%">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td colspan="2" align="left" class="content"><?php echo ($vo["blar_content"]); ?></td>
+                <td>&nbsp;</td>
               </tr>
             </table></td>
           </tr>
           <tr class="contentmodel">
             <td height="11"  background="/images/index_20.gif"></td>
           </tr>
-		  <!--文章模板结束--><?php endforeach; endif; else: echo "" ;endif; ?>
-                  
-           <!--分页模板开始-->
-          <tr>
-            <td height="13" background="/images/index_14.gif"></td>
-          </tr>
-          <tr>
-            <td  background="/images/index_16.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
-              <tr>
-                <td width="2%">&nbsp;</td>
-                <td width="97%" align="left"><?php echo ($page); ?></td>
-                <td width="1%">&nbsp;</td>
-              </tr>
-              </table></td>
-          </tr>
-          <tr>
-            <td height="11"  background="/images/index_20.gif"></td>
-          </tr>
-		  <!--分页模板结束-->
+		  <!--文章模板结束-->
                     
         </table></td>
         <td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td>&nbsp;</td>
           </tr>
-          <!--左边模板开始-->  
+          <!--右边模板开始-->  
           <tr>
             <td height="12" background="/images/index_18.gif"></td>
           </tr>
@@ -235,8 +217,8 @@
           <tr>
             <td height="12"  background="/images/index_24.gif"></td>
           </tr>
-          <!--左边模板结束-->  
-          <!--左边模板开始-->  
+          <!--右边模板结束-->  
+          <!--右边模板开始-->  
           <tr>
             <td height="12" background="/images/index_18.gif"></td>
           </tr>
@@ -262,8 +244,8 @@
           <tr>
             <td height="12"  background="/images/index_24.gif"></td>
           </tr>
-          <!--左边模板结束-->  
-          <!--左边模板开始-->  
+          <!--右边模板结束-->  
+          <!--右边模板开始-->  
           <tr>
             <td height="12" background="/images/index_18.gif"></td>
           </tr>
@@ -295,8 +277,8 @@
           <tr>
             <td height="12"  background="/images/index_24.gif"></td>
           </tr>
-          <!--左边模板结束-->  
-          <!--左边模板开始-->  
+          <!--右边模板结束-->  
+          <!--右边模板开始-->  
           <tr>
             <td height="12" background="/images/index_18.gif"></td>
           </tr>
@@ -328,8 +310,8 @@
           <tr>
             <td height="12"  background="/images/index_24.gif"></td>
           </tr>
-          <!--左边模板结束-->                       
-          <!--左边模板开始-->  
+          <!--右边模板结束-->                       
+          <!--右边模板开始-->  
           <tr>
             <td height="12" background="/images/index_18.gif"></td>
           </tr>
@@ -361,8 +343,8 @@
           <tr>
             <td height="12"  background="/images/index_24.gif"></td>
           </tr>
-          <!--左边模板结束-->  
-          <!--左边模板开始-->  
+          <!--右边模板结束-->  
+          <!--右边模板开始-->  
           <tr>
             <td height="12" background="/images/index_18.gif"></td>
           </tr>
@@ -396,7 +378,7 @@
           <tr>
             <td height="12"  background="/images/index_24.gif"></td>
           </tr>
-          <!--左边模板结束-->                              
+          <!--右边模板结束-->                              
         </table></td>
       </tr>
     </table></td>
