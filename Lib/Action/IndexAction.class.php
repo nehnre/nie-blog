@@ -42,19 +42,24 @@ class IndexAction extends Action
 	public function articleForm() {
 		$this->display();
 	}
-	public function saveArticle() {
+	public function insertArticle() {
 		$Article = new Model('Article');
 		$Article->create();
 		$Article->blar_create_time = date("Y-m-d H:i:s");
 		$Article->blar_modify_time = date("Y-m-d H:i:s");
-		$result = $Article->add();
+		$Article->add();
+
+		$blar_id = $_POST["blar_id"];
 		$Model = new Model();
 		$Model->query("select last_insert_id() as last");
+		$result = $Model->query("select last_insert_id() as last");
+		$blar_id = $result[0]["last"];
+		
 		$Content = new Model('Content');
 		$Content -> create();
-		//$Content -> blar_id = $Model(0)->last;
-		//$Content -> add();
-		$this->ajaxReturn($Model->query("select last_insert_id() as last"),"测试！",1);
+		$Content -> blar_id = $blar_id;
+		$Content -> add();
+		$this->ajaxReturn($blar_id,"保存成功",1);
 	}
 }
 ?>

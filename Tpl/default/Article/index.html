@@ -23,26 +23,51 @@
 			line-height:24px;
 		}
 	</style>
-	<script charset="utf-8" src="../js/kindeditor/kindeditor.js"></script>
+	<script charset="utf-8" src="/js/kindeditor/kindeditor.js"></script>
 	<script>
 		KE.show({
 			id : 'blar_content',
-			cssPath : '../js/kindeditor/examples/index.css',
-			afterCreate : function(id) {
-				KE.event.ctrl(document, 13, function() {
-					KE.sync(id);
-					document.forms['example'].submit();
-				});
-				KE.event.ctrl(KE.g[id].iframeDoc, 13, function() {
-					KE.sync(id);
-					document.forms['example'].submit();
-				});
-			}
+			cssPath : '/js/kindeditor/examples/index.css'
 		});
+		function ajaxSubmit() {
+			var btnSubmit = $("#submit");
+			btnSubmit.attr("disabled", true).val("保存中...");
+			
+			var form = $("form").eq(0);
+			var url = form.attr("action");
+			KE.sync("blar_content");
+			var data = form.serialize();
+			
+			var inputId = $("#blar_id");
+			var blarId = inputId.val();
+			if(blarId) {
+				url += "update";
+			} else {
+				url += "insert";
+			}
+			
+			$.ajax({
+				url:url,
+				type:"POST",
+				data:data,
+				dataType:"json",
+				success:function(json){
+					if(json.status == "1"){
+						inputId.val(json.data);
+					} else {
+						alert(json.info);
+					}
+					btnSubmit.attr("disabled", false).val("提交内容");
+					console.log(json);
+				}
+			});
+			return false;//只做ajax提交
+		}
 	</script>
 </head>
 <body>
-	<form name="example" method="post" action="http://localhost/Index/saveArticle">
+	<form name="example" method="post" action="__URL__/" onsubmit="return ajaxSubmit()">
+		<input type="hidden" name="blar_id" id="blar_id"/>
 		<table width="98%" border="0" cellspacing="0" cellpadding="0">
 			<tr>
 				<td width="60px" align="right">文章标题：</td>
@@ -79,7 +104,7 @@
 		</table>
 		<div><textarea id="blar_content" name="blar_content" style="width:100%;height:300px;visibility:hidden;"></textarea></div>
 		<br />
-		<input type="submit" name="button" value="提交内容" /> (提交快捷键: Ctrl + Enter)
+		<input type="submit" name="button" value="提交内容" id="submit"/>
 	</form>
 <body>
 </html>
