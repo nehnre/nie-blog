@@ -5,13 +5,10 @@
 	<link rel="Shortcut icon" href="favicon.ico" />
 	<link rel="Bookmark" href="favicon.ico"> 
 	<link href="/images/index.css" rel="stylesheet" type="text/css" media="all" />
-	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/themes/base/jquery-ui.css" type="text/css" media="all" /> 
+	<link rel="stylesheet" href="/js/jqueryui/css/ui-lightness/jquery-ui-1.8.16.custom.css" type="text/css" media="all" /> 
 	<title>Nie's Home</title>
-	<script language="JavaScript" src="http://www.google.com/jsapi"></script>
-	<script language="JavaScript">
-		google.load("jquery","1");
-		google.load("jqueryui","1");
-	</script>
+	<script language="JavaScript" src="/js/jqueryui/js/jquery-1.6.2.min.js"></script>
+	<script language="JavaScript" src="/js/jqueryui/js/jquery-ui-1.8.16.custom.min.js"></script>
 	<script language="JavaScript" src="/js/core.js"></script>
 	<script language="JavaScript" src="/js/index.js"></script>
 	<script language="javascript" type="text/javascript">
@@ -23,6 +20,7 @@
 	</script>
 </head>
 <body >
+
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td height="92" align="center" background="/images/index_01.gif"><table width="987" border="0" cellspacing="0" cellpadding="0">
@@ -124,13 +122,15 @@
               </tr>
               <tr>
                 <td width="2%" height="34">&nbsp;</td>
-                <td width="95%" align="left"  class="hotText"></td>
+                <td width="95%" align="left"  class="hotText">
+					<?php if(is_array($listHot)): $i = 0; $__LIST__ = $listHot;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): ++$i;$mod = ($i % 2 )?>&nbsp;<?php if($i > 1): ?>|<?php endif; ?>&nbsp;<a href="#" class="whiteText"><?php echo ($vo["blar_title"]); ?></a><?php endforeach; endif; else: echo "" ;endif; ?>
+				</td>
                 <td width="3%">&nbsp;</td>
               </tr>
             </table></td>
           </tr>
-                  
-          <!--文章模板开始-->
+               
+		  <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): ++$i;$mod = ($i % 2 )?><!--文章模板开始-->
           <tr class="contentmodel">
             <td height="13" background="/images/index_14.gif"></td>
           </tr>
@@ -138,7 +138,7 @@
             <td  background="/images/index_16.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td colspan="2">&nbsp;</td>
-                <td width="95%" align="left"><a href="#" class="title"></a></td>
+                <td width="95%" align="left"><a href="#" class="title"><?php echo ($vo["blar_title"]); ?></a></td>
                 <td>&nbsp;</td>
               </tr>
               <tr>
@@ -158,17 +158,17 @@
               </tr>
               <tr>
                 <td colspan="2">&nbsp;</td>
-                <td align="left" class="basicInfo"></td>
+                <td align="left" class="basicInfo">分类：<?php if(is_array($vo["tags"])): $i = 0; $__LIST__ = $vo["tags"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$tag): ++$i;$mod = ($i % 2 )?><?php if($i > 1): ?>,<?php endif; ?><?php echo ($tag["blta_name"]); ?><?php endforeach; endif; else: echo "" ;endif; ?>  - <?php echo ($vo["blar_author"]); ?> @ <?php echo ($vo["blar_create_time"]); ?> 评论：0条 点击：<?php echo ($vo["blar_clicks"]); ?>次</td>
                 <td>&nbsp;</td>
               </tr>
               <tr>
-                <td colspan="2">&nbsp;</td>
-                <td align="left">&nbsp;</td>
-                <td>&nbsp;</td>
+                <td colspan="2" height="10"></td>
+                <td align="left"></td>
+                <td></td>
               </tr>
               <tr>
                 <td width="2%"><p>&nbsp;</p></td>
-                <td colspan="2" align="left" class="content"></td>
+                <td colspan="2" align="left" class="content"><font size="20">“</font><?php echo ($vo["blar_abstract"]); ?>...</td>
                 <td width="1%">&nbsp;</td>
               </tr>
             </table></td>
@@ -176,7 +176,7 @@
           <tr class="contentmodel">
             <td height="11"  background="/images/index_20.gif"></td>
           </tr>
-		  <!--文章模板结束-->
+		  <!--文章模板结束--><?php endforeach; endif; else: echo "" ;endif; ?>
                   
            <!--分页模板开始-->
           <tr>
@@ -186,7 +186,7 @@
             <td  background="/images/index_16.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td width="2%">&nbsp;</td>
-                <td width="97%" align="left" class="pageFoot"></td>
+                <td width="97%" align="left"><?php echo ($page); ?></td>
                 <td width="1%">&nbsp;</td>
               </tr>
               </table></td>

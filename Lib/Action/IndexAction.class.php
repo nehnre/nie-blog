@@ -27,39 +27,34 @@ class IndexAction extends Action
 	// 数据查询操作
 
 	public function index() {
-		// $Demo = new Model('Demo'); // 实例化模型类
-		// $list = $Demo->select(); // 查询数据
-		// $this->assign('list',$list); // 模板变量赋值
-		$this->display(); // 输出模板
+		$Hot = new Model('Article');
+		$listHot = $Hot -> where("blar_status=3") -> order('blar_create_time desc') -> select();
+		$this->assign('listHot',$listHot);
+	
+		$Article = new Model('Article'); // 实例化模型类
+		import("ORG.Util.Page"); 
+		$count = $Article -> where("blar_status<>2") -> count();
+		$Page = new Page($count, 5);
+		$show = $Page -> show();
+		$list = $Article->where('blar_status<>2')->order('blar_create_time desc')->limit($Page->firstRow.','.$Page->listRows)->select(); // 查询数据
+		foreach($list as $key=>$art) {
+			$blar_id = $art["blar_id"];
+			$ViewArTags = new Model('view_ar_tags');
+			$result = $ViewArTags -> where('blar_id='.$blar_id) -> select();
+			if(isset($result) && !empty($result)) {
+				$art["tags"] = $result;
+			}
+			$list[$key] = $art;
+		}
+		$this->assign('list',$list); // 模板变量赋值
+		$this->assign('page',$show);
+		$this->display(); 
 	}
 	
 	public function ajaxTest() {
 		$Demo = new Model('Demo'); // 实例化模型类
 		$list = $Demo->select(); // 查询数据
 		$this->ajaxReturn($list,"新增错误！",1);
-	}
-	
-	public function articleForm() {
-		$this->display();
-	}
-	public function insertArticle() {
-		$Article = new Model('Article');
-		$Article->create();
-		$Article->blar_create_time = date("Y-m-d H:i:s");
-		$Article->blar_modify_time = date("Y-m-d H:i:s");
-		$Article->add();
-
-		$blar_id = $_POST["blar_id"];
-		$Model = new Model();
-		$Model->query("select last_insert_id() as last");
-		$result = $Model->query("select last_insert_id() as last");
-		$blar_id = $result[0]["last"];
-		
-		$Content = new Model('Content');
-		$Content -> create();
-		$Content -> blar_id = $blar_id;
-		$Content -> add();
-		$this->ajaxReturn($blar_id,"保存成功",1);
 	}
 }
 ?>

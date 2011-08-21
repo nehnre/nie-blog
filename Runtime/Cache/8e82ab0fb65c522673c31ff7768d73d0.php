@@ -95,7 +95,7 @@
 			</tr>
 			<tr>
 				<td width="60px" align="right">tags：</td>
-				<td><input type="text" value="" style="width:100%"/></td>
+				<td><input type="text" value="" style="width:100%" name="blta_name"/></td>
 			</tr>
 			<tr>
 				<td width="60px" align="right">文章摘要：</td>
