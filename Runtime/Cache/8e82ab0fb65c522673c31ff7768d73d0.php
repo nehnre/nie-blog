@@ -61,7 +61,7 @@
 	</script>
 </head>
 <body>
-	<form name="example" method="post" action="__URL__/" onsubmit="return ajaxSubmit()">
+	<form name="example" method="post" action="/index.php/Article/" onsubmit="return ajaxSubmit()">
 		<input type="hidden" name="blar_id" id="blar_id"/>
 		<table width="98%" border="0" cellspacing="0" cellpadding="0">
 			<tr>

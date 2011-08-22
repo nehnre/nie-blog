@@ -11,13 +11,6 @@
 	<script language="JavaScript" src="/js/jqueryui/js/jquery-ui-1.8.16.custom.min.js"></script>
 	<script language="JavaScript" src="/js/core.js"></script>
 	<script language="JavaScript" src="/js/index.js"></script>
-	<script language="javascript" type="text/javascript">
-		function postArticle(){
-			var _script = document.createElement("script");
-			_script.src = "http://localhost/js/post_article.js?_=" + new Date().getTime() ;
-			document.body.appendChild(_script); 			
-		}
-	</script>
 </head>
 <body >
 
@@ -36,7 +29,7 @@
             <td width="11%" rowspan="3">&nbsp;</td>
           </tr>
           <tr>
-            <td height="12" align="center" valign="top" class="whiteText"><a href="internet" class="whiteText">互联网</a></td>
+            <td height="12" align="center" valign="top" class="whiteText"><a href="#" class="whiteText">互联网</a></td>
           </tr>
           <tr>
             <td height="12"></td>
@@ -52,7 +45,7 @@
             <td width="11%" rowspan="3">&nbsp;</td>
           </tr>
           <tr>
-            <td height="12" align="center" valign="top"><a href="java" class="whiteText">Java</a></td>
+            <td height="12" align="center" valign="top"><a href="#" class="whiteText">Java</a></td>
           </tr>
           <tr>
             <td height="12"></td>
@@ -68,7 +61,7 @@
             <td width="11%" rowspan="3">&nbsp;</td>
           </tr>
           <tr>
-            <td height="12" align="center" valign="top"><a href="search" class="whiteText">搜索</a></td>
+            <td height="12" align="center" valign="top"><a href="#" class="whiteText">搜索</a></td>
           </tr>
           <tr>
             <td height="12"></td>
@@ -84,7 +77,7 @@
             <td width="11%" rowspan="3">&nbsp;</td>
           </tr>
           <tr>
-            <td height="12" align="center" valign="top"><a href="js" class="whiteText">Js</a></td>
+            <td height="12" align="center" valign="top"><a href="#" class="whiteText">Js</a></td>
           </tr>
           <tr>
             <td height="12"></td>
@@ -100,7 +93,7 @@
             <td width="11%" rowspan="3">&nbsp;</td>
           </tr>
           <tr>
-            <td height="12" align="center" valign="top"><a href="life" class="whiteText">生活</a></td>
+            <td height="12" align="center" valign="top"><a href="#" class="whiteText">生活</a></td>
           </tr>
           <tr>
             <td height="12"></td>
@@ -123,7 +116,7 @@
               <tr>
                 <td width="2%" height="34">&nbsp;</td>
                 <td width="95%" align="left"  class="hotText">
-					<?php if(is_array($listHot)): $i = 0; $__LIST__ = $listHot;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): ++$i;$mod = ($i % 2 )?>&nbsp;<?php if($i > 1): ?>|<?php endif; ?>&nbsp;<a href="#" class="whiteText"><?php echo ($vo["blar_title"]); ?></a><?php endforeach; endif; else: echo "" ;endif; ?>
+					<?php if(is_array($listHot)): $i = 0; $__LIST__ = $listHot;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): ++$i;$mod = ($i % 2 )?>&nbsp;<?php if($i > 1): ?>|<?php endif; ?>&nbsp;<a href="/index.php/Article/detail?blar_id=<?php echo ($vo["blar_id"]); ?>" class="whiteText"><?php echo ($vo["blar_title"]); ?></a><?php endforeach; endif; else: echo "" ;endif; ?>
 				</td>
                 <td width="3%">&nbsp;</td>
               </tr>
@@ -137,9 +130,9 @@
           <tr class="contentmodel">
             <td  background="/images/index_16.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
-                <td colspan="2">&nbsp;</td>
-                <td width="95%" align="left"><a href="/index.php/Article/detail?blar_id=<?php echo ($vo["blar_id"]); ?>" class="title"><?php echo ($vo["blar_title"]); ?></a></td>
-                <td>&nbsp;</td>
+                <td colspan="2" width="30">&nbsp;</td>
+                <td width="662" align="left"><a href="/index.php/Article/detail?blar_id=<?php echo ($vo["blar_id"]); ?>" class="title"><?php echo ($vo["blar_title"]); ?></a></td>
+                <td width="30">&nbsp;</td>
               </tr>
               <tr>
                 <td height="5" colspan="2"></td>
@@ -167,9 +160,9 @@
                 <td></td>
               </tr>
               <tr>
-                <td width="2%"><p>&nbsp;</p></td>
-                <td colspan="2" align="left" class="content"><font size="20">“</font><?php echo ($vo["blar_abstract"]); ?>...</td>
-                <td width="1%">&nbsp;</td>
+                <td colspan="2"><p>&nbsp;</p></td>
+                <td align="left" class="content"><font size="20">“</font><?php echo ($vo["blar_abstract"]); ?>...</td>
+                <td>&nbsp;</td>
               </tr>
             </table></td>
           </tr>
@@ -353,7 +346,7 @@
                                            
               <tr>
                 <td width="6%">&nbsp;</td>
-                <td width="91%" align="left" class="blogroll"></td>
+                <td width="91%" align="left" class="blogroll"><a href="http://artms.cn/" target="_blank">黑猫物语</a></td>
                 <td width="3%">&nbsp;</td>
               </tr>
             </table></td>
@@ -407,7 +400,7 @@
         <td>&nbsp;</td>
       </tr>
       <tr>
-        <td align="center" class="whiteText">Powered By nehnre | 转载请注明出处 | 管理员登录 | <span style="cursor:pointer" onclick="postArticle()">新增文章</span></td>
+        <td align="center" class="whiteText">Powered By nehnre | 转载请注明出处 | 管理员登录 </td>
       </tr>
     </table></td>
   </tr>  

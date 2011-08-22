@@ -97,6 +97,14 @@ class ArticleAction extends Action
 	public function detail() {
 		$blar_id = $_GET["blar_id"];
 		if(isset($blar_id) && !empty($blar_id)) {
+			$Hot = new Model('Article');
+			$listHot = $Hot -> where("blar_status=3") -> order('blar_create_time desc') -> limit(5) -> select();
+			$this->assign('listHot',$listHot);
+		
+			$Order = new Model('Article');
+			$listOrder = $Order -> where("blar_status<>2") -> order('blar_clicks desc, blar_create_time desc') -> limit(10) -> select();
+			$this -> assign('listOrder', $listOrder);
+
 			$view_article = new Model('view_article');
 			$view_article->setInc('blar_clicks','blar_id='.$blar_id); 
 			$result = $view_article -> where('blar_id='.$blar_id) -> select();
