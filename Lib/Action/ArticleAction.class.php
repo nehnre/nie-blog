@@ -108,6 +108,18 @@ class ArticleAction extends Action
 			$view_article = new Model('view_article');
 			$view_article->setInc('blar_clicks','blar_id='.$blar_id); 
 			$result = $view_article -> where('blar_id='.$blar_id) -> select();
+			
+			if(isset($result) && !empty($result)) {
+				$art = $result[0];
+				$blar_id = $art["blar_id"];
+				$ViewArTags = new Model('view_ar_tags');
+				$result = $ViewArTags -> where('blar_id='.$blar_id) -> select();
+				if(isset($result) && !empty($result)) {
+					$art["tags"] = $result;
+				}
+				$result[0] = $art;
+			}			
+			
 			$this -> assign("vo", $result[0]);
 			$this->display(); 
 		}
